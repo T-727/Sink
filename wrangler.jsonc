@@ -47,5 +47,7 @@
   // ],
   "triggers": {
     "crons": ["0 0 * * *"] // Run backup task daily at 00:00 UTC
-  }
+  },
+  "workers_dev": false,
+  "preview_urls": false
 }
